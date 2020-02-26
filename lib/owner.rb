@@ -53,8 +53,8 @@ class Owner
   end
   
   def list_pets
-    num = self.dogs.count
-    num = self.cats.count
+    num_of_dogs = self.dogs.count
+    num_of_cats = self.cats.count
   end
   
   def self.reset_all
