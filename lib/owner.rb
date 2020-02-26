@@ -7,6 +7,7 @@ class Owner
     @name = name 
     @species = species
     @@all << self
+    @cats = []
     
   end
   
@@ -30,7 +31,10 @@ class Owner
     @@all.clear
   end
   
-  def cats 
+  def cats (cat)
+    @cats << cat
+    cat.owner = self
+  end
     
   end
   
