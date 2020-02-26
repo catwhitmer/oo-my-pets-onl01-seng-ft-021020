@@ -8,7 +8,6 @@ class Owner
     @species = species
     @@all << self
     @cats = []
-    
   end
   
   def self.all
@@ -27,11 +26,8 @@ class Owner
     @@all.size 
   end
   
-  
   def cats
     @cats
-  end
-    
   end
   
   def dogs 
