@@ -28,14 +28,6 @@ class Owner
     @@all.size 
   end
   
-  def cats
-    @cats
-  end
-  
-  def dogs 
-    
-  end
-  
   def buy_cat
     
   end
